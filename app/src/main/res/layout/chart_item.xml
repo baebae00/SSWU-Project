@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="4dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearItem"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/img_chart"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="right|top|center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_chartTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:fontFamily="@font/bmhannapro"
+                android:paddingBottom="2dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_chartName"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_margin="0dp"
+                android:fontFamily="@font/bmhannapro"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_recruit"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center"
+        android:text="팀원 모집" />
+
+</androidx.cardview.widget.CardView>
