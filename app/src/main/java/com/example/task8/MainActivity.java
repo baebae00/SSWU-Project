@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //유투브로 연결
-    public void myListener(View target) {
+    /* public void myListener(View target) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/"));
         startActivity(intent);
-    }
+    } */
 
     //차트 메뉴로 연결
     public void myListener2(View target) {
@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //가수 자세히 보기로 연결
+    /* //가수 자세히 보기로 연결
     public void myListener3(View target) {
         Intent intent = new Intent(getApplicationContext(), ArtistinfoActivity.class);
         Toast.makeText(MainActivity.this, "Artist Information", Toast.LENGTH_SHORT).show();
         startActivity(intent);
-    }
+    } */
 }

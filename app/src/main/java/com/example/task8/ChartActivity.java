@@ -84,7 +84,7 @@ public class ChartActivity extends AppCompatActivity {
                         // 이미지정보
                         for (Element element : image_list1){
                             // 주소에서 /contest 지우고 그 자리에 src 추가
-                            listUrl.add("https://www.jungle.co.kr/" + element.attr("src"));
+                            listUrl.add("https://www.jungle.co.kr" + element.attr("src"));
                         }
 
                         for (Element element : albumId_list_1) {
@@ -95,7 +95,6 @@ public class ChartActivity extends AppCompatActivity {
                             //그중에서도 앨범 아이디(숫자부분)만 뗴어내기
                             int tmp_num = tmp.indexOf("('") + 2;
                             String result = tmp.substring(tmp_num, (tmp.substring(tmp_num).indexOf("');") + tmp_num));
-
                             //앨범 아이디만 리스트에 추가
                             listAlbumID.add(result);
 */
