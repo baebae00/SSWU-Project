@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /* //가수 자세히 보기로 연결
-    public void myListener3(View target) {
-        Intent intent = new Intent(getApplicationContext(), ArtistinfoActivity.class);
+    //가수 자세히 보기로 연결
+    /* public void myListener3(View target) {
+        Intent intent = new Intent(getApplicationContext(), TabLayoutActivity.class);
         Toast.makeText(MainActivity.this, "Artist Information", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     } */
